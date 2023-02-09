@@ -6,7 +6,7 @@
 }
 
 body {
-    color: #ffffff;
+    /*color: #ffffff; */
     font-size: 9pt;
 }
 
@@ -79,8 +79,6 @@ a.fa-solid.fa-user:hover {
 }
 
 .carousel-inner {
-    /*width: 983px;
-    height: 553px;*/
     object-fit: scale-down;
     height: 75vh;
     width: 100%;
@@ -88,7 +86,7 @@ a.fa-solid.fa-user:hover {
     background-position: center;
 }
 
-.row {
+#sobre_mi {
     background-color: lightskyblue;
 }
 
@@ -118,7 +116,7 @@ a.fa-solid.fa-user:hover {
     text-align: center;
 }
 
-/**/
+/* Inicio */
 
 #inicio {
     background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("/assets/img/fondo_inicio.png");
@@ -179,6 +177,56 @@ a.fa-solid.fa-user:hover {
 #inicio .container .presentacion a:hover {
     background-color: #ff5080;
 }
+
+/* Experiencia */
+
+#experiencia {
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.experiencia h3.titulo_experiencia {
+    font-size: 2.5em;
+    font-weight: bold;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 600px;
+    margin: 10% 0% 0% 31%;
+}
+
+.icono_laburo1 {
+    margin-top: 7.5rem;
+    margin-left: 13rem;
+    position: absolute;
+}
+
+.texto_laburo.txtlab1 {
+    margin-top: 16rem;
+    margin-right: 5%;
+    color: black;
+    font-size: 80%;
+    text-align : center;
+    position: absolute;
+    left: 50%;
+}
+
+.row2 .container-fluid .col-3 .icono_laburo2 {
+    margin-top: 7.5rem;
+    margin-left: 13rem;
+    position: absolute;
+}
+
+.texto_laburo.txtlab2 {
+    margin-top: 16rem;
+    margin-right: 5%;
+    color: black;
+    font-size: 80%;
+    text-align : center;
+    position: absolute;
+    left: 50%;
+}
+
+
 
 
 /* Habilidades */
