@@ -91,7 +91,7 @@ a.fa-solid.fa-user:hover {
 }
 
 .fotoPerfil {
-    margin-top: -13%;
+    margin-top: -10%;
     margin-left: 15%;
     border-radius: 50%;
     position: absolute;
@@ -100,11 +100,12 @@ a.fa-solid.fa-user:hover {
 }
 
 .info {
+    margin-top: -2%;
     margin-left:35%;
-    margin-top: -20%;
     text-align: center;
     color: blue;
     font-size: 110%;
+    padding-bottom: 10%;
 }
 .col-4.texto {
     color:blue;
@@ -180,23 +181,23 @@ a.fa-solid.fa-user:hover {
 
 /* Experiencia */
 
-#experiencia {
+.experiencia {
     background-color: antiquewhite;
     position: relative;
 }
 
-.experiencia h3.titulo_experiencia {
+.titulo_experiencia {
     font-size: 2.5em;
     font-weight: bold;
     justify-content: space-between;
     text-align: center;
     max-width: 600px;
-    margin: 10% 0% 0% 31%;
+    margin: 5% 0% 0% 31%;
 }
 
-.icono_laburo1 {
-    margin-top: 7.5rem;
-    margin-left: 13rem;
+.row.primero .col-3 .icono_laburo1 {
+    /*margin-top: 7.5rem;
+    margin-left: 13rem;*/
     position: absolute;
     width: 15%;
     height: 35%;
@@ -214,8 +215,8 @@ a.fa-solid.fa-user:hover {
 }
 
 .icono_laburo2 {
-    margin-top: 7.5rem;
-    margin-left: 13rem;
+    /*margin-top: 7.5rem;
+    margin-left: 13rem;*/
     position: absolute;
     border-radius: 50%;
 }
@@ -231,8 +232,8 @@ a.fa-solid.fa-user:hover {
 }
 
 .icono_laburo3 {
-    margin-top: 7.5rem;
-    margin-left: 13rem;
+    /*margin-top: 7.5rem;
+    margin-left: 13rem;*/
     position: absolute;
     border-radius: 50%;
 }
@@ -253,7 +254,7 @@ a.fa-solid.fa-user:hover {
 /* Habilidades */
 
 .container-fluid.skill {
-    background: linear-gradient( #eb5a5acc, rgba(33, 16, 16, 0.8)), url("/assets/img/fondo-skills.jpg");
+    background: linear-gradient( #eb5a5acc, rgba(33, 16, 16, 0.8)), url("/assets/img/fondo_habilidad.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
