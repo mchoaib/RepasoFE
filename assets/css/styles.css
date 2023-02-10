@@ -198,6 +198,9 @@ a.fa-solid.fa-user:hover {
     margin-top: 7.5rem;
     margin-left: 13rem;
     position: absolute;
+    width: 15%;
+    height: 35%;
+    border-radius: 50%;
 }
 
 .texto_laburo.txtlab1 {
@@ -206,14 +209,15 @@ a.fa-solid.fa-user:hover {
     color: black;
     font-size: 80%;
     text-align : center;
+    margin-left: 35%;
     position: absolute;
-    left: 50%;
 }
 
-.row2 .container-fluid .col-3 .icono_laburo2 {
+.icono_laburo2 {
     margin-top: 7.5rem;
     margin-left: 13rem;
     position: absolute;
+    border-radius: 50%;
 }
 
 .texto_laburo.txtlab2 {
@@ -222,8 +226,25 @@ a.fa-solid.fa-user:hover {
     color: black;
     font-size: 80%;
     text-align : center;
+    margin-left: 35%;
     position: absolute;
-    left: 50%;
+}
+
+.icono_laburo3 {
+    margin-top: 7.5rem;
+    margin-left: 13rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.texto_laburo.txtlab3 {
+    margin-top: 16rem;
+    margin-right: 5%;
+    color: black;
+    font-size: 80%;
+    text-align : center;
+    margin-left: 35%;
+    position: absolute;
 }
 
 
